@@ -16,8 +16,7 @@
     time.appendChild(minutesEl);
   });
 })();
-</script>
-<script>
+
 var navLinksDiv = document.getElementById("nav-links-div");
 var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
