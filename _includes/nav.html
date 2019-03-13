@@ -1,28 +1,15 @@
-		<nav class="nav" id="nav">
-      <div class="nav-logo">
-        <img src="/images/logo.svg" height="100%" alt="Oxidize Nav Logo">
-      </div>
-      <div style="float: right;">
-  			<a href="/" class="active">Home</a>
-			<a href="/sponsors/packages/">Sponsors</a>
-			<a href="/accessibility">Accessibility</a>
-			<a href="/parents">Parents</a>
-            <a href="/code-of-conduct">Code of Conduct</a>
-            <a href="/logistics">Event Logistics</a>
-
-  			<a href="mailto:oxidizeconf@ferrous-systems.com">Contact</a>
-  			<a href="javascript:void(0);" class="caron" onclick="show()">&#8609;</a>
-      </div>
-		</nav>
-
-<script>
-		function show() {
-  		var x = document.getElementById("nav");
-  		if (x.className === "nav") {
-    	x.className += " responsive";
-  		}
-  		else {
-    	x.className = "nav";
- }
-}
-</script>
+<a href = '/' class = 'logo'>{% include logo.html %}</a>
+<div id="i">
+	<div class="bar1 a"></div>
+	<div class="bar2 b"></div>
+	<div class="bar3 c"></div>
+</div>
+<nav id="menu">
+	<div id="nav-links-div"><br class="res-br"><br class="mozila-res-br">
+		<a class="nav-links" href="/#Schedule">Schedule</a><br class="res-br"><br class="res-br"><br class="mozila-res-br">
+		<a class="nav-links" href="/parents/">Sponsors</a><br class="res-br"><br class="res-br"><br class="mozila-res-br">
+		<a class="nav-links" href="/#Logistics">Logistics</a><br class="res-br"><br class="res-br"><br class="mozila-res-br">
+		<a class="nav-links" href="/#Newsletter">Newsletter</a><br class="res-br"><br class="res-br"><br class="res-br"><br class="mozila-res-br"><br class="mozila-res-br">
+		<a id="ticket" class="nav-links tic" href="#">Get Ticket</a><br class="res-br"><br class="res-br"><br class="mozila-res-br">
+	</div>
+</nav>
