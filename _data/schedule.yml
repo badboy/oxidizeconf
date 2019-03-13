@@ -1,0 +1,64 @@
+- day: Saturday, 24th November
+  theme: aka "Talks, Talks, Talks"
+  sessions: 
+    - title: Registration opens
+      time: 0830
+    - title: Welcome & Sponsors
+      time: 0900
+    - title: Grappling with growth, and other good problems to have
+      time: 0930
+      url: /sessions/project-highlight/
+      speakers:
+        - name: Aaron Turon
+          avatar: speaker.jpg # aaron-turon.jpg
+    - title: Caging the SpiderMonkey - Ensuring safe JS bindings in Servo
+      time: 1015
+      url: /sessions/project-highlight/
+      speakers:
+        - name: Igor Matuszewski
+          avatar: speaker.jpg # aaron-turon.jpg
+    - title: Coffee Break
+      time: 1030
+    - title: Oh Boy! Creating a Game Boy Emulator in Rust
+      time: 1115
+      url: /sessions/project-highlight/
+      speakers:
+        - name: Ryan Levick
+          avatar: speaker.jpg # aaron-turon.jpg
+    - title: Rust, For Science!
+      time: 1140
+      url: /sessions/project-highlight/
+      speakers:
+        - name: Adam Kelly
+          avatar: speaker.jpg # aaron-turon.jpg
+    - title: Declarative programming in Rust
+      time: 1200
+      url: /sessions/project-highlight/
+      speakers:
+        - name: Pascal Hertleif
+          avatar: speaker.jpg # aaron-turon.jpg
+    - title: Project Highlight Increasing Rust's Reach Project Highlight
+      time: 1655
+      url: /sessions/project-highlight/
+      speakers:
+        - name: Alan Kavishe
+          avatar: speaker.jpg # aaron-turon.jpg
+        - name: Lee Baillie
+          avatar: speaker.jpg # aaron-turon.jpg
+    - title: Closing Venue
+      time: 1800
+
+- day: Sunday, 25th November
+  theme: aka "Working hard all day in the shop"
+  sessions: 
+    - title: Auditorium opens
+      time: 0915
+    - title: Breakfast
+      time: 0930
+    - title: Effective Rust Documentation
+      room: BW Plus Hotel Universo, Sale Anna
+      time: 0930
+      url: /sessions/project-highlight/
+      speakers: 
+        - name: Andre 'llogiq' Bogus
+          avatar: speaker.jpg # andre-bogus.jpg
