@@ -8,9 +8,13 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png" sizes="32x32">
 		<script async src='{{ site.baseurl }}/javascript/tito.js'></script>
-
 	</head>
 	<body>
+		{%- unless page.layout == 'home' -%}
+		<header>
+			{% include nav.html %}
+		</header>
+		{%- endunless -%}
 		{{ content }}
 		{%- include footer.html -%}
 		<script>{%- include scripts.js -%}</script>
