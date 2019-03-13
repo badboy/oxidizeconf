@@ -67,13 +67,24 @@ function containsClass(el, targetClass) {
 var navLinksDiv = document.getElementById("nav-links-div");
 var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-document.getElementById("svg-peanut2").style.left = width - 650 + "px";
-document.getElementById("svg-peanut3").style.left = width - 200 + "px";
-document.getElementById("svg-snake-peanut1").style.left = width - 155 + "px";
-document.getElementById("svg-snake-circle1").style.left = width - 330 + "px";
-document.getElementById("svg-snake-peanut2").style.left = width - 640 + "px";
-document.getElementById("svg-snake-circle2").style.left = width - 760 + "px";
-document.getElementById("svg-snake-peanut3").style.left = width - 1115 + "px";
+function setLeft(element, offset = 0) {
+    // using ids only
+    let el = elem(`#${element}`);
+    el ? el.style.left = width - offset + "px" : false;
+}
+
+function setElementsLeft() {
+    setLeft('svg-peanut2', 650);
+    setLeft('svg-peanut3', 200);
+    setLeft('svg-snake-peanut1', 155);
+    setLeft('svg-snake-circle1', 330);
+    setLeft('svg-snake-peanut2', 640);
+    setLeft('svg-snake-circle2', 760);
+    setLeft('svg-snake-peanut3', 1115);
+}
+
+setElementsLeft();
+
 window.addEventListener("resize", svg);
 if(navigator.userAgent.indexOf("Firefox") != -1 && width < 546) {
     var mozilaBr = document.getElementsByClassName("mozila-br");
@@ -85,15 +96,10 @@ if(navigator.userAgent.indexOf("Firefox") != -1 && width < 546) {
         mozilaResBr[i].style.display = "block";
     }
 }
+
 function svg() {
     var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    document.getElementById("svg-peanut2").style.left = width - 650 + "px";
-    document.getElementById("svg-peanut3").style.left = width - 200 + "px";
-    document.getElementById("svg-snake-peanut1").style.left = width - 155 + "px";
-    document.getElementById("svg-snake-circle1").style.left = width - 330 + "px";
-    document.getElementById("svg-snake-peanut2").style.left = width - 640 + "px";
-    document.getElementById("svg-snake-circle2").style.left = width - 760 + "px";
-    document.getElementById("svg-snake-peanut3").style.left = width - 1115 + "px";
+    setElementsLeft();
 }
 var gearIcon = document.getElementById("i");
 gearIcon.style.left = width - 100 + "px";
