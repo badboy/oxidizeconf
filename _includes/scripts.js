@@ -102,15 +102,25 @@ function svg() {
     setElementsLeft();
 }
 var gearIcon = document.getElementById("i");
-gearIcon.style.left = width - 100 + "px";
-gearIcon.style.top = "60px";
+// gearIcon.style.left = width - 100 + "px";
+// gearIcon.style.top = "60px";
 gearIcon.addEventListener("click", gearClickOpen);
 window.addEventListener("resize", gearChange);
 function gearChange() {
     width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     gearIcon.style.left = width - 100 + "px";
 }
+
+function changeBars(bars = []) {
+    bars.forEach(function(bar) {
+        let element = elem(`.${bar}`);
+        let changingClass = `${bar}-change`;
+        modifyClass(element, changingClass);
+    });
+}
+
 function gearClickOpen() {
+    
     navLinksDiv.style.display = "block";
     navLinksDiv.style.width = "100%";
     navLinksDiv.style.position = "relative";
@@ -120,17 +130,17 @@ function gearClickOpen() {
     for (i = 0; i < 5; i++) {
         document.getElementsByClassName("nav-links")[i].style.marginLeft = "10px";
     }
-    document.getElementsByClassName("bar1")[0].classList.toggle("bar1-change");
-    document.getElementsByClassName("bar2")[0].classList.toggle("bar2-change");
-    document.getElementsByClassName("bar3")[0].classList.toggle("bar3-change");
+
+    changeBars(['bar1', 'bar2', 'bar3'])
+
     gearIcon.removeEventListener("click", gearClickOpen);
     gearIcon.addEventListener("click", gearClickClose);
 }
 function gearClickClose() {
     gearIcon.removeEventListener("click", gearClickClose);
     navLinksDiv.style.display = "none";
-    document.getElementsByClassName("bar1")[0].classList.toggle("bar1-change");
-    document.getElementsByClassName("bar2")[0].classList.toggle("bar2-change");
-    document.getElementsByClassName("bar3")[0].classList.toggle("bar3-change");
+
+    changeBars(['bar1', 'bar2', 'bar3']);
+
     gearIcon.addEventListener("click", gearClickOpen);
 }

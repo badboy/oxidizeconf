@@ -5,13 +5,15 @@ layout: default
 <div class = 'xs'>{% include icons/background.html %}</div>
 <header>
     {% include nav.html %}
-    <h1 class = 'h1'>APRIL 26-29, 2019<br><span>Berlin, Germany</span></h1>
-    <h2>Embedded Systems and IoT in Rust.</h2>
-    <p>One day of guided workshops for developers looking to start or improve their Embedded Rust skills, one day of talks by community members, and a two day development session focused on building Embedded Systems in Rust.</p>
-    <div id="buttons-div">
-        <a class="buttons one" href="#">Get Ticket</a><br class="buttons-br"><br class="buttons-br"><br class="buttons-br"><br class="mozila-br"><br class="mozila-br">
-        <a class="buttons two" href="#">Call for Papers</a>
-    </div><br><br><br><br><br><br class="buttons-br"><br class="buttons-br"><br class="mozila-br"><br class="mozila-br">
+    <div class = 'margin-div'>
+        <h1 class = 'h1'>APRIL 26-29, 2019<br><span>Berlin, Germany</span></h1>
+        <h2>Embedded Systems and IoT in Rust.</h2>
+        <p>One day of guided workshops for developers looking to start or improve their Embedded Rust skills, one day of talks by community members, and a two day development session focused on building Embedded Systems in Rust.</p>
+        <div id="buttons-div">
+            <a class="buttons one" href="#">Get Ticket</a><br class="buttons-br"><br class="buttons-br"><br class="buttons-br"><br class="mozila-br"><br class="mozila-br">
+            <a class="buttons two" href="#">Call for Papers</a>
+        </div><br><br><br><br><br><br class="buttons-br"><br class="buttons-br"><br class="mozila-br"><br class="mozila-br">
+    </div>
 </header>
 <div id="Schedule"></div>
 <div id="schedule-div">
@@ -20,36 +22,17 @@ layout: default
         <svg width="171" height="2" viewBox="0 0 171 2" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="1" x2="171" y2="1" stroke="#E4E4E4" stroke-width="2"/>
         </svg>
-        <h2 class="schedule-div-other-h2" style="margin-top: 22px">Workshops</h2>
-        <p class="dates">26 April</p>
-        <p class="schedule-para">
-            The OxidizeConf Workshops are a one day, two track set of workshops led by Ferrous Systems. Tickets for the OxidizeConf Workshops are sold separately from Conference tickets.
-            The tracks will be divided as Beginner and Advanced Embedded Rustlang development. Participants will be provided all embedded hardware necessary for the course.
-        </p>
+        {% for schedule in site.data.general_schedule %}
+        <h2 class="schedule-div-other-h2">{{ schedule.title }}</h2>
+        <p class="dates">{{ schedule.date }}</p>
+        <p class="schedule-para">{{ schedule.description }}</p>
         <div class="boxes"></div>
         <p class="dates">Location</p>
-        <p class="dates" style="font-weight: normal; margin-top: 10px; margin-bottom: 28px;">ThoughtWorks Berlin<br>Zimmerstraße 23<br>10969 Berlin, Germany</p>
+        <p class="location">{{ schedule.location }}</p>
         <a class="see-map" href="#">See Map</a>
-        <h2 class="schedule-div-other-h2" style="margin-top: 63px">Talks</h2>
-        <p class="dates">27 April</p>
-        <p class="schedule-para">
-            The Oxidize Conference is the main event, showcasing the use of Rust in the Embedded Systems domain, with a focus on real world and production use-cases.
-        </p>
-        <div class="boxes"></div>
-        <p class="dates">Location</p>
-        <p class="dates" style="font-weight: normal; margin-top: 10px; margin-bottom: 28px;">ThoughtWorks Berlin<br>Zimmerstraße 23<br>10969 Berlin, Germany</p>
-        <a class="see-map" href="#">See Map</a>
-        <h2 class="schedule-div-other-h2" style="margin-top: 63px">Implementation Days</h2>
-        <p class="dates">28 &amp; 29 April</p>
-        <p class="schedule-para">
-            Impl. Days are a two day event for Embedded Rust contributors to collaborate in an active programming session. They are open to any attendees with a valid Conference or Workshop ticket.
-        </p>
-        <div class="boxes"></div>
-        <p class="dates">Location</p>
-        <p class="dates" style="font-weight: normal; margin-top: 10px; margin-bottom: 28px;">ThoughtWorks Berlin<br>Zimmerstraße 23<br>10969 Berlin, Germany</p>
-        <a class="see-map" href="#">See Map</a>
-    </div>
-    <br><br><br><br><br><br><br><br>
+       {% endfor %}
+   </div>
+    <br><br><br><br>
 </div>
 <div class = 'xs'>{% include icons/svg_snake.html %}</div>
 <div id="Logistics"></div>
