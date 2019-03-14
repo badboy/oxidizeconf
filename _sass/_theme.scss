@@ -165,12 +165,16 @@ header p {
     color: #FFFFFF;
     margin-top: 50px
 }
-#schedule-div .dates {
+.dates, .location {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     line-height: 20px;
     font-size: 18px;
     color: #161616;
+}
+.location {
+    font-weight: 400;
+    margin: 1.5rem 0;
 }
 #schedule-div .schedule-para, .logistics-para, .newsletter-para {
     font-family: 'Quicksand', sans-serif;
@@ -206,6 +210,8 @@ header p {
     padding-top: 5px;
     padding-right: 50px;
     padding-left: 50px;
+    display: inline-block;
+    margin-bottom: 4rem;
 }
 .see-map:hover {
     background-color: #F4F4F4;
