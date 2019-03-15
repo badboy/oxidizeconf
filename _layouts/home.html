@@ -26,7 +26,7 @@ layout: default
         <h2 class="schedule-div-other-h2">{{ schedule.title }}</h2>
         <p class="dates">{{ schedule.date }}</p>
         <p class="schedule-para">{{ schedule.description }}</p>
-        <div class="boxes"></div>
+        {% if schedule.ticket %}{{ schedule.ticket }}{% endif %}
         <p class="dates">Location</p>
         <p class="location">{{ schedule.location }}</p>
         <a class="see-map" href="#">See Map</a>
