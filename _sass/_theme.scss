@@ -12,7 +12,7 @@ html {
     scroll-behavior: smooth;
 }
 .margin-div {
-    max-width: 1084px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1.5rem;
@@ -33,7 +33,6 @@ html {
     color: #FFFFFF;
     font-weight: bold;
     text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
     font-size: 16px;
 }
 .nav-links.tic {
@@ -56,7 +55,6 @@ header {
     padding-bottom: 1.25rem;
 }
 h1 {
-    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     line-height: 48px;
     font-size: 48px;
@@ -72,7 +70,6 @@ h1 span {
     font-size: 36px;
 }
 header h2 {
-    font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     line-height: 31px;
     font-size: 28px;
@@ -81,7 +78,6 @@ header h2 {
     color: #FFFFFF;
 }
 header p {
-    font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     color: #FFFFFF;
     margin-top: 20px;
@@ -95,7 +91,6 @@ header p {
 .buttons {
     border: 3px solid #FFFFFF;
     border-radius: 10px;
-    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
@@ -144,7 +139,6 @@ header p {
     padding-top: 50px;
 }
 #schedule-div-h2-head, #logistics-div-h2-head {
-    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     line-height: 54px;
     font-size: 48px;
@@ -155,7 +149,6 @@ header p {
     color: #FFFFFF;
 }
 #schedule-div .schedule-div-other-h2, .logistics-div-other-h2 {
-    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     line-height: 40px;
     font-size: 36px;
@@ -166,7 +159,6 @@ header p {
     margin-top: 50px
 }
 .dates, .location {
-    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     line-height: 20px;
     font-size: 18px;
@@ -177,7 +169,6 @@ header p {
     margin: 1.5rem 0;
 }
 #schedule-div .schedule-para, .logistics-para, .newsletter-para {
-    font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     color: #000000;
     margin-top: 37px;
@@ -201,7 +192,6 @@ header p {
     background-color: #423CC6;
     border: 2px solid #423CC6;
     border-radius: 10px;
-    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     font-size: 18px;
     color: #FFFFFF;
@@ -257,7 +247,6 @@ form #submit {
     background: linear-gradient(0deg, #423CC6, #423CC6);
     border: 2px solid #423CC6;
     border-radius: 10px;
-    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     font-size: 24px;
     color: #FFFFFF;
@@ -267,9 +256,8 @@ form #submit {
     padding-right: 40px;
 }
 footer p {
-    font-family: 'Quicksand', sans-serif;
     // line-height: 20px;
-    font-size: 18px;
+    font-size: 14px;
     color: #FFFFFF;
     width: 400px;
 }
@@ -287,7 +275,6 @@ footer {
     margin-bottom: 23px;
 }
 footer h2, .inline-connect-div a {
-    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     line-height: 20px;
     font-size: 18px;
