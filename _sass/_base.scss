@@ -1,6 +1,25 @@
 * {
   box-sizing: border-box;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: $font;
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 .page {
   padding-top: 2rem;
@@ -11,7 +30,7 @@
   * {
     line-height:  1.6;
   }
-  ul, ol {
+  ul, ol, blockquote {
     padding-left: 1rem;
     padding: 1rem 0 1rem 1rem;
   }
@@ -24,6 +43,8 @@ img {
     display: none;
   }
 }
-body {
-  font-family: $font;
+
+blockquote {
+  margin: 0 auto !important;
+  padding:  20px 0 !important
 }

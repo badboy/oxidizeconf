@@ -1,17 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-html {
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-}
 .margin-div {
+    display: block;
+    width: 100%;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -188,26 +177,7 @@ header p {
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.see-map {
-    background-color: #423CC6;
-    border: 2px solid #423CC6;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 18px;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-right: 50px;
-    padding-left: 50px;
-    display: inline-block;
-    margin-bottom: 4rem;
-}
-.see-map:hover {
-    background-color: #F4F4F4;
-    color: #423CC6;
-    transition: 0.3s;
-}
+
 #logistics-div {
     background-color: #423CC6;
 }
@@ -256,10 +226,9 @@ form #submit {
     padding-right: 40px;
 }
 footer p {
-    // line-height: 20px;
     font-size: 14px;
     color: #FFFFFF;
-    width: 400px;
+    max-width: 400px;
 }
 form #submit:hover {
     cursor: pointer;
@@ -356,24 +325,7 @@ footer h2, .inline-connect-div a {
     #i {
         z-index: 1;
     }
-    .footer-inline {
-        position: relative;
-        margin-top: 20px;
-        right: 0px;
-        display: block;
-    }
-    .footer-inline #h2 {
-        display: none;
-    }
-    .footer-inline.connect2 {
-        margin-left: 160px;
-    }
-    .footer-inline.connect1 {
-        margin-top: 50px;
-    }
-    footer #footer-p {
-        width: 90%;
-    }
+    
     .buttons.two {
         margin-top: 20px;
         display: block;
