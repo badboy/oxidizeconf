@@ -7,7 +7,6 @@ title: Event Logistics
 
 **Disclaimer:** Oxidize Conference has not partnered with any hotels for the event. The following is a list of hotels nearby to the conference.
 
----
 ### Mercure Hotel & Residenz Berlin Checkpoint Charlie
 
 - Schuetzenstr. 11, 10117 Berlin
