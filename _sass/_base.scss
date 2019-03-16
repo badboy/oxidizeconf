@@ -48,3 +48,14 @@ blockquote {
   margin: 0 auto !important;
   padding:  20px 0 !important
 }
+table {
+  min-width: 100%;
+}
+thead {
+  background: $brand-color;
+  color: $light;
+}
+.pt-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
