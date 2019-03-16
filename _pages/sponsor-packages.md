@@ -4,7 +4,7 @@ title: Sponsor Packages
 ---
 
 # Sponsorship Packages
-{% include sponsors.html %}
+{% include packages.html %}
 
 
 - \* To be provided by sponsors, to be shipped to venue on the day before the conference.

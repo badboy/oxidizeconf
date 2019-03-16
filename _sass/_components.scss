@@ -276,3 +276,20 @@ tr {
 .h2 {
   margin-top: 0;
 }
+
+.sponsor {
+  &s {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: 1fr;
+    align-items: center;
+    @media screen and (min-width: 667px) {
+      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    }
+  }
+  &_logo {
+    width: 90%;
+    max-width: 15rem;
+    margin: 0.5rem auto;
+  }
+}
