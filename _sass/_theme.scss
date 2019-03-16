@@ -13,6 +13,9 @@
     left: 0;
     opacity: 1;
     text-align: center;
+    @media screen and (min-width: 1024px) {
+        text-align: right;
+    }
     top: 0;
     visibility: visible;
     width: 100% !important;
