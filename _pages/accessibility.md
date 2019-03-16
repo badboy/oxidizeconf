@@ -3,6 +3,8 @@ permalink: /accessibility/
 title: Accessibility Statement
 ---
 
+# Accessibility 
+
 Oxidize is an inclusive conference and as such strives to be accessible to everyone. This includes:
 
 - Offering significantly discounted tickets for concession holders.
@@ -16,6 +18,6 @@ Oxidize is an inclusive conference and as such strives to be accessible to every
 - We provide non-gendered toilets.
 - You can bring comfort and guide animals, but need to register them with us before.
 
-If you're not sure whether the concession rate should apply to you, please do get in touch.<br /> Our goal is that the conference and workshops and all other related events are accessible to disabled people. However, we are aware that accessibility issues are diverse and we may not have everything covered in our plans - please reach out, and we will do our very best to confirm we have those requirements under control. Send a mail to[oxidizeconf@ferrous-systems.com](mailto:team@ferrous-systems.com).
+If you're not sure whether the concession rate should apply to you, please do get in touch.<br /> Our goal is that the conference and workshops and all other related events are accessible to disabled people. However, we are aware that accessibility issues are diverse and we may not have everything covered in our plans - please reach out, and we will do our very best to confirm we have those requirements under control. Send a mail to [oxidizeconf@ferrous-systems.com](mailto:team@ferrous-systems.com).
 
 We will happily reserve you a ticket if it's not immediately clear whether necessary assistance is provided or you have additional planning to do for your trip to Oxidize.
