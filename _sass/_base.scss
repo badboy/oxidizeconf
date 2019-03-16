@@ -45,8 +45,9 @@ img {
 }
 
 blockquote {
-  margin: 0 auto !important;
-  padding:  20px 0 !important
+  margin: 1rem auto;
+  padding:  1rem;
+  border-left: 0.5rem solid #eee;
 }
 table {
   min-width: 100%;
