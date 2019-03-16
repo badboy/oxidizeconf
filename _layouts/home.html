@@ -23,7 +23,7 @@ layout: default
             <line y1="1" x2="171" y2="1" stroke="#E4E4E4" stroke-width="2"/>
         </svg>
         {% for schedule in site.data.general_schedule %}
-        <h2 class="schedule-div-other-h2">{{ schedule.title }}</h2>
+        <h2 class="schedule_heading" id = "{{ schedule.title | slugify | downcase }}">{{ schedule.title }}</h2>
         <p class="dates">{{ schedule.date }}</p>
         <p class="schedule-para">{{ schedule.description }}</p>
         {% if schedule.ticket %}{{ schedule.ticket }}{% endif %}
