@@ -218,6 +218,13 @@ a.session {
     width: 33%;
     margin-bottom: 3rem;
   }
+  h2, h3 {
+    color: $brand-color;
+  }
+  h1 {
+    font-size: 2rem;
+    color: $secondary;
+  }
 }
 
 .package-addons h2 {
