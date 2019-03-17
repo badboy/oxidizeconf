@@ -25,9 +25,22 @@
         margin-left: 0.5rem;
         padding: 10px 1rem;
         border: 2px solid transparent;
-        &:hover {
-            border: 2px solid #fff;
-            border-radius: 5px;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            left: 1rem;
+            transition: width 0.5s ease-out;
+            background: $mute;
+            bottom: 0.25rem;
+        }
+        &:not(:last-child) {
+            text-align: left;
+        }
+        &:not(:last-child):hover::after {
+            padding: 2px;
+            width: 2rem;
         }
     }
     color: #FFFFFF;
