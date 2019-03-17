@@ -204,31 +204,25 @@ header p {
 #svg-snake-peanut3 {
     margin-top: 230px;
 }
-form {
+.form {
     margin-top: 24px;
-}
-form #email {
-    background-color: #FFFFFF;
-    border: 1px solid #C7C7C7;
-    box-sizing: border-box;
-    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 10px 10px 10px 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-form #submit {
-    background: linear-gradient(0deg, #423CC6, #423CC6);
-    border: 2px solid #423CC6;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 24px;
-    color: #FFFFFF;
-    padding-top: 5px;
-    padding-bottom: 8px;
-    padding-left: 40px;
-    padding-right: 40px;
+    &_email, &_submit {
+        font-size: 1.25rem;
+        padding: 0.5rem 2rem;
+        border-radius: 10px;
+    }
+    &_email {
+        background-color: #FFFFFF;
+        border: 1px solid #C7C7C7;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+    &_submit {
+        background: linear-gradient(0deg, #423CC6, #423CC6);
+        border: 2px solid #423CC6;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
 }
 footer p {
     font-size: 14px;

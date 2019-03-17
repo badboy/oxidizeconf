@@ -7,13 +7,13 @@
   outline: 0;
   vertical-align: baseline;
   background: transparent;
+  font-family: $font;
 }
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 body {
-  font-family: $font;
   display: flex;
   width: 100%;
   overflow-x: hidden;
@@ -59,4 +59,10 @@ thead {
 .pt-4 {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.5rem;
 }
