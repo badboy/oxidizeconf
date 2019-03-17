@@ -1,8 +1,8 @@
 <div class="sponsors">
   {%- for sponsor in site.data.sponsors -%}
   <a href="{{ sponsor.website }}">
-    <img class = "sponsor_logo" src="/images/{{ sponsor.logo }}" alt="{{ sponsor.name }}" rel = 'noopener' target = '_blank'>
-    <p>{{ sponsor.name }}</p>
+    <img class = "sponsor_logo {% if forloop.last %}sponsor_small{% endif %}" src="/images/{{ sponsor.logo }}" alt="{{ sponsor.name }}" rel = 'noopener' target = '_blank'>
+    <!-- <p>{{ sponsor.name }}</p> -->
   </a>
   {%- endfor -%}
 </div>
