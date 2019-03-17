@@ -303,3 +303,16 @@ tr {
     max-width: 10rem;
   }
 }
+.nav{
+  &_open {
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    line-height: 2.2;
+    margin: 100px 0;
+    position: relative;
+    a {
+      padding: 1rem 0;
+    }
+  }
+}

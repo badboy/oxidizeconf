@@ -8,7 +8,7 @@
 	<nav id="menu">
 		<div id="nav-links-div"><br class="res-br"><br class="mozila-res-br">
 		  {%- for nav in site.data.nav -%}
-			<a class="nav-links {% if nav.class %}{{ nav.class }}{% endif %}" href="{{ nav.link }}">{{ nav.item }}</a>
+			<a {% if forloop.last %}id="ticket"{% endif %} class="nav-links {% if nav.class %}{{ nav.class }}{% endif %}" href="{{ nav.link }}">{{ nav.item }}</a>
 			{%- endfor -%}
 		</div>
 	</nav>

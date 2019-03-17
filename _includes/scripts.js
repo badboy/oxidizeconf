@@ -121,11 +121,7 @@ function changeBars(bars = []) {
 
 function gearClickOpen() {
     
-    navLinksDiv.style.display = "block";
-    navLinksDiv.style.width = "100%";
-    navLinksDiv.style.position = "relative";
-    navLinksDiv.style.margin = "100px 0";
-    navLinksDiv.style.lineHeight = "2.2";
+    modifyClass(navLinksDiv, 'nav_open');
     document.getElementById('ticket').className = "nav-links";
     for (i = 0; i < 5; i++) {
         document.getElementsByClassName("nav-links")[i].style.marginLeft = "10px";
