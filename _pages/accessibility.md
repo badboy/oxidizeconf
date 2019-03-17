@@ -3,8 +3,6 @@ permalink: /accessibility/
 title: Accessibility Statement
 ---
 
-# Accessibility 
-
 Oxidize is an inclusive conference and as such strives to be accessible to everyone. This includes:
 
 - Offering significantly discounted tickets for concession holders.

@@ -3,10 +3,6 @@ permalink: /sponsors/packages/
 title: Sponsor Packages
 ---
 
-# Sponsorship Packages
-
-<br>
-
 {% include packages.html %}
 
 - \* To be provided by sponsors, to be shipped to venue on the day before the conference.

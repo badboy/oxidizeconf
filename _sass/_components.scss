@@ -278,6 +278,9 @@ tr {
   &_round {
     border-radius: 1rem;
   }
+  &_light {
+    border: 2px solid #fff;
+  }
 }
 
 .h2 {
@@ -314,5 +317,37 @@ tr {
     a {
       padding: 1rem 0;
     }
+  }
+}
+.venue {
+  &_heading {
+    color: $light;
+  }
+  &_item {
+    &s {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      @media screen and (min-width: 769px) {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+  }
+}
+
+.event {
+  &_day {
+    background: $secondary;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    color: $light;
+  }
+  &_time {
+    font-size: 2rem;
+    color: $brand-color;
+    font-weight: bold;
+    margin: 0.5rem 0;
   }
 }

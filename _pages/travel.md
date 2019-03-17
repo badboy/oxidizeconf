@@ -2,7 +2,7 @@
 permalink: /travel/
 title: Travel Logistics
 ---
-# Travel Logistics
+
 ## Hotel Information
 
 **Disclaimer:** Oxidize Conference has not partnered with any hotels for the event. The following is a list of hotels nearby to the conference.

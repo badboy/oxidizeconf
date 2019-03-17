@@ -1,0 +1,12 @@
+<div class = 'venue_items'>
+  {% for item in site.data.venue %}
+    <div class = 'venue_item'>
+      <h3 class="venue_heading" id = "{{ item.title | slugify | downcase }}">{{ item.title }}</h3>
+      <!-- <p class="dates">{{ item.date }}</p>
+      <p class="schedule-para">{{ item.description }}</p> -->
+      <!-- <p class="dates">Location</p> -->
+      <p class="location">{{ item.location }}</p>
+      <a class="btn btn_light" href="#">See Map</a>
+    </div>
+  {% endfor %}
+</div>

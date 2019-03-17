@@ -8,6 +8,9 @@ speakers:
   - name: Alan Kavishe
     avatar: speaker.jpg
     bio: Alan is a software developer with a background in electronics engineering, who lives in Namibia and spends his days coding JavaScript and composing choral pieces. He saved his first program onto a cassette tape and then proceeded to pop the tape into a stereo just to hear what it’d sound like. Turns out that’s a whole genre of music.
+time: 9:30 A.M
+day: Saturday, 24th November
+event-type: Talks
 ---
 
 In our new “Project Highlight” keynote format we selected an important, interesting and successful projects/initiatives and invite their leaders & contributors to talk about their work, experiences, and the things they have learned along the way to benefit the larger Rust community.

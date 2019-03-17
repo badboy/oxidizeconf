@@ -18,19 +18,11 @@ layout: default
 <div id="Schedule"></div>
 <div id="schedule-div">
     <div class="margin-div">
-        <h2 id="schedule-div-h2-head">Schedule</h2>
+        <h2 id="schedule-div-h2-head">Tickets</h2>
         <svg width="171" height="2" viewBox="0 0 171 2" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="1" x2="171" y2="1" stroke="#E4E4E4" stroke-width="2"/>
         </svg>
-        {% for schedule in site.data.general_schedule %}
-        <h2 class="schedule_heading" id = "{{ schedule.title | slugify | downcase }}">{{ schedule.title }}</h2>
-        <p class="dates">{{ schedule.date }}</p>
-        <p class="schedule-para">{{ schedule.description }}</p>
-        {% if schedule.ticket %}{{ schedule.ticket }}{% endif %}
-        <p class="dates">Location</p>
-        <p class="location">{{ schedule.location }}</p>
-        <a class="btn" href="#">See Map</a>
-       {% endfor %}
+        {%- include tickets.html -%}
    </div>
     <br><br><br><br>
 </div>
@@ -43,16 +35,11 @@ layout: default
 <div id="logistics-div">
     <br><br><br>
     <div class="margin-div">
-        <h2 id="logistics-div-h2-head">Logistics</h2>
+        <h2 id="logistics-div-h2-head">Venue</h2>
         <svg width="171" height="2" viewBox="0 0 171 2" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="1" x2="171" y2="1" stroke="#E4E4E4" stroke-width="2"/>
         </svg>
-        <h2 class="logistics-div-other-h2">Code of Conduct</h2>
-        <p class="logistics-para">OxidizeConf follows the Berlin Code of Conduct</p>
-        <h2 class="logistics-div-other-h2">Accessibility</h2>
-        <p class="logistics-para">We strive to provide an as accessible conference experience as possible. We will release a detailed description of the venue very soon.</p>
-        <h2 class="logistics-div-other-h2">Child Care</h2>
-        <p class="logistics-para">Child care will be offered during the event as well. More details to this soon.</p>
+        {% include venue.html %}
     </div>
     <br><br><br>
 </div>
