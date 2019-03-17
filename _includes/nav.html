@@ -7,12 +7,9 @@
 	</div>
 	<nav id="menu">
 		<div id="nav-links-div"><br class="res-br"><br class="mozila-res-br">
-			<a class="nav-links" href="/schedule/">Schedule</a><br class="res-br"><br class="res-br"><br class="mozila-res-br">
-			<a class="nav-links" href="/sponsors/packages/">Sponsors</a><br class="res-br"><br class="res-br"><br class="mozila-res-br">
-			<a class="nav-links" href="/travel/">Travel</a><br class="res-br"><br class="res-br"><br class="mozila-res-br">
-			<a class="nav-links" href="/accessibility/">Accessibilty</a><br class="res-br"><br class="res-br"><br class="res-br"><br class="mozila-res-br"><br class="mozila-res-br">
-			<a class="nav-links" href="/code-of-conduct/">Code of Conduct</a><br class="res-br"><br class="res-br"><br class="res-br"><br class="mozila-res-br"><br class="mozila-res-br">
-			<a id="ticket" class="nav-links tic" href="https://ti.to/asquera-event-ug/oxidize-2019">Get Ticket</a><br class="res-br"><br class="res-br"><br class="mozila-res-br">
+		  {%- for nav in site.data.nav -%}
+			<a class="nav-links {% if nav.class %}{{ nav.class }}{% endif %}" href="{{ nav.link }}">{{ nav.item }}</a>
+			{%- endfor -%}
 		</div>
 	</nav>
 </div>
