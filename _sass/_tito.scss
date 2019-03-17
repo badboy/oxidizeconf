@@ -160,13 +160,14 @@ input[type=text].tito-ticket-donation-field {
 
 .tito-ticket-price span {
   display: block;
-  font-size: 16px;
-  line-height: 34px
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 700;
 }
 
 .tito-ticket-vat {
-  color: #adadad;
-  font-size: 10px;
+  color: #777;
+  font-size: 12px;
   padding-bottom: 5px
 }
 
