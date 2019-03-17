@@ -4,17 +4,19 @@ layout: default
 <main class = 'margin-div page'>
   {{ content }}
 </main>
-<div class = 'speakers margin-div'>
-  {% for speaker in page.speakers %}
-  <div class = 'speaker'>
-    <div class = 'speaker_avatar'>
-      <img src = '/images/{{ speaker.avatar }}' alt = 'speaker.name'>
+<section class = 'margin-div'>
+  <h2>Speakers</h2>
+  <div class = 'speakers'>
+    {% for speaker in page.speakers %}
+    <div class = 'speaker'>
+      <div class = 'speaker_avatar'>
+        <img src = '/images/{{ speaker.avatar }}' alt = 'speaker.name'>
+      </div>
+      <div class = 'speaker_bio'>
+        <h3 class = 'speaker_name'>{{ speaker.name }}</h3>
+        {{ speaker.bio | markdownify }}
+      </div>
     </div>
-    <h2>Speakers</h2>
-    <div class = 'speaker_bio'>
-      <h3 class = 'speaker_name'>{{ speaker.name }}</h3>
-      {{ speaker.bio | markdownify }}
-    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
+</section>
