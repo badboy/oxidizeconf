@@ -3,11 +3,11 @@ permalink: /logistics/
 title: Event Logistics
 ---
 
-## Hotel Information
+# Hotel Information
 
 **Disclaimer:** Oxidize Conference has not partnered with any hotels for the event. The following is a list of hotels nearby to the conference.
 
-### Mercure Hotel & Residenz Berlin Checkpoint Charlie
+## Mercure Hotel & Residenz Berlin Checkpoint Charlie
 
 - Schuetzenstr. 11, 10117 Berlin
 - 250m from the location / 3 minute walk
@@ -17,7 +17,7 @@ title: Event Logistics
 <a href="https://www.accorhotels.com/gb/hotel-3120-mercure-hotel-residenz-berlin-checkpoint-charlie/index.shtml" class = 'btn'>Hotel Website</a>
 
 ---
-### Select Hotel Berlin The Wall
+## Select Hotel Berlin The Wall
 
 - Zimmerst. 22, 10117 Berlin
 - 4-star hotel, free wifi
@@ -26,7 +26,7 @@ title: Event Logistics
 <a href="http://wall.select-hotels.eu/" class = 'btn'>Hotel Website</a>
 
 ---
-### Hotel Gat Point Charlie
+## Hotel Gat Point Charlie
 
 - 250m from the location / 3 minute walk
 - Modern minimalist-style rooms, free wifi
@@ -35,7 +35,7 @@ title: Event Logistics
 <a href="https://hotelgatpointcharlie.com/de" class = 'btn'>Hotel Website</a>
 
 ---
-### NH Collection Berlin Mitte am Checkpoint Charlie
+## NH Collection Berlin Mitte am Checkpoint Charlie
 
 - 500m from the location / 5 minute walk
 - Modern 4-star hotel, free wifi
