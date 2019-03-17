@@ -152,6 +152,11 @@ header p {
     background-color: #F4F4F4;
     padding-top: 50px;
 }
+.schedule {
+    &_date {
+        font-weight: bold;
+    }
+}
 #schedule-div-h2-head, #logistics-div-h2-head {
     font-weight: bold;
     line-height: 54px;
