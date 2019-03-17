@@ -3,6 +3,8 @@ permalink: /code-of-conduct/
 title: Berlin Code of Conduct
 ---
 
+# Code of Conduct
+
 Oxidize follows the <a href = "http://berlincodeofconduct.org/" target="_blank" rel="noopener">Berlin Code of Conduct</a>, translations into German, Polish, French, Spanish, Italian, and Russian can be found there.
 
 ### Purpose
