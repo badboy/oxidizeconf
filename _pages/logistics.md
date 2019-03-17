@@ -3,7 +3,7 @@ permalink: /logistics/
 title: Event Logistics
 ---
 
-# Hotel Information
+# Hotels
 
 **Disclaimer:** Oxidize Conference has not partnered with any hotels for the event. The following is a list of hotels nearby to the conference.
 
