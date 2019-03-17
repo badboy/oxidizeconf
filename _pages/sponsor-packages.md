@@ -4,8 +4,10 @@ title: Sponsor Packages
 ---
 
 # Sponsorship Packages
-{% include packages.html %}
 
+<br>
+
+{% include packages.html %}
 
 - \* To be provided by sponsors, to be shipped to venue on the day before the conference.
 - ** A table with space for 5+ Team members to distribute goodies, flyers and present the company and get the participants a chance to get in touch with the team
