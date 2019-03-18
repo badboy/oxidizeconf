@@ -3,50 +3,88 @@
   sessions: 
     - title: Registration opens
       time: 0830
-    - title: Welcome & Sponsors
+    - title: Welcome Keynote and Sponsors
       time: 0900
-    - title: Grappling with growth, and other good problems to have
-      time: 0930
+    - title: War Stories
+      time: 0945
       url: /sessions/project-highlight/
       speakers:
-        - name: Aaron Turon
-          avatar: speaker.jpg # aaron-turon.jpg
-    - title: Caging the SpiderMonkey - Ensuring safe JS bindings in Servo
-      time: 1015
+        - name: Oliver Scherer
+          avatar: speaker.jpg
+    - title: RIOT-OS
+      time: 1025
       url: /sessions/project-highlight/
       speakers:
-        - name: Igor Matuszewski
-          avatar: speaker.jpg # aaron-turon.jpg
+        - name: Christian Amsüss
+          avatar: speaker.jpg
     - title: Coffee Break
-      time: 1030
-    - title: Oh Boy! Creating a Game Boy Emulator in Rust
-      time: 1115
+      time: 1040
+    - title: TrustZone
+      time: 1100
       url: /sessions/project-highlight/
       speakers:
-        - name: Ryan Levick
-          avatar: speaker.jpg # aaron-turon.jpg
-    - title: Rust, For Science!
+        - name: Hugues de Valon
+          avatar: speaker.jpg
+    - title: RISC-V
       time: 1140
       url: /sessions/project-highlight/
       speakers:
-        - name: Adam Kelly
-          avatar: speaker.jpg # aaron-turon.jpg
-    - title: Declarative programming in Rust
-      time: 1200
+        - name: Arun Thomas
+          avatar: speaker.jpg
+    - title: Test Generator
+      time: 1220
       url: /sessions/project-highlight/
       speakers:
-        - name: Pascal Hertleif
-          avatar: speaker.jpg # aaron-turon.jpg
-    - title: Project Highlight Increasing Rust's Reach Project Highlight
-      time: 1655
+        - name: Frank Rehberger
+          avatar: speaker.jpg
+    - title: Lunch
+      time: 1235
+    - title: TBA
+      time: 1400
       url: /sessions/project-highlight/
       speakers:
-        - name: Alan Kavishe
-          avatar: speaker.jpg # aaron-turon.jpg
-        - name: Lee Baillie
-          avatar: speaker.jpg # aaron-turon.jpg
-    - title: Closing Venue
-      time: 1800
+        - name: 
+          avatar: speaker.jpg
+    - title: Embedded Rust Anywhere
+      time: 1440
+      url: /sessions/project-highlight/
+      speakers:
+        - name: Joseph Ross
+          avatar: speaker.jpg
+    - title: How to Rust
+      time: 1520
+      url: /sessions/project-highlight/
+      speakers:
+        - name: Eddy Petrisor
+          avatar: speaker.jpg
+    - title: Coffee Break
+      time: 1550
+    - title: Bluetooth Skateboarding
+      time: 1610
+      url: /sessions/project-highlight/
+      speakers:
+        - name: TBA
+          avatar: speaker.jpg
+    - title: Industrial Grade
+      time: 1640
+      url: /sessions/project-highlight/
+      speakers:
+        - name: Tristan Lostroh
+          avatar: speaker.jpg
+    - title: TBA
+      time: 1710
+      url: /sessions/project-highlight/
+      speakers:
+        - name: TBA
+          avatar: speaker.jpg
+    - title: Project Highlight TBA
+      time: 1750
+      url: /sessions/project-highlight/
+      speakers:
+        - name: Tristan Lostroh
+          avatar: speaker.jpg
+    - title: Closing Notes
+      time: 1830
 
 - day: Sunday, 25th November
   theme: aka "Working hard all day in the shop"
