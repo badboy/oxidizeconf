@@ -288,6 +288,18 @@ footer h2, .inline-connect-div a {
 .footer-inline.connect2 {
     right: 160px;
 }
+.footer {
+    &_meta {
+        margin-top: 1rem;
+        div {
+            padding: 0.33rem 0;
+            display: grid;
+            grid-template-columns: 1fr 9fr;
+            grid-gap: 0.25rem;
+            align-items: center;
+        }
+    }
+}
 .bar1-change {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
