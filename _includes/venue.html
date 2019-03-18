@@ -5,9 +5,12 @@
       <!-- <p class="dates">{{ item.date }}</p>
       <p class="schedule-para">{{ item.description }}</p> -->
       <!-- <p class="dates">Location</p> -->
-      <p class="location">{{ item.location }}</p>
       {% if item.map == nil %}
-      <p class="btn btn_light">TBA</p>
+      <p class="location">TBA</p>
+      {% else %}
+      <p class="location">{{ item.location }}</p>
+      {% endif %}
+      {% if item.map == nil %}
       {% else %}
       <a class="btn btn_light" href="{{ item.map }}">See Map</a>
       {% endif %}
