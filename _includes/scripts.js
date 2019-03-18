@@ -117,15 +117,12 @@ function changeBars(bars = []) {
         let changingClass = `${bar}-change`;
         modifyClass(element, changingClass);
     });
+    modifyClass(navLinksDiv, 'nav_open');
 }
 
 function gearClickOpen() {
     
-    modifyClass(navLinksDiv, 'nav_open');
     document.getElementById('ticket').className = "nav-links";
-    for (i = 0; i < 5; i++) {
-        document.getElementsByClassName("nav-links")[i].style.marginLeft = "10px";
-    }
 
     changeBars(['bar1', 'bar2', 'bar3'])
 
