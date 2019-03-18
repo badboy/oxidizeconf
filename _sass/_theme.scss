@@ -272,11 +272,6 @@ footer h2, .inline-connect-div a {
     color: #FFFFFF;
     margin-bottom: 1rem;
 }
-.inline-connect-div a {
-    font-weight: normal;
-    text-decoration: none;
-    margin-bottom: 0px;
-}
 .res-br {
     display: none;
 }
@@ -298,6 +293,12 @@ footer h2, .inline-connect-div a {
             grid-template-columns: 1fr 9fr;
             grid-gap: 0.25rem;
             align-items: center;
+        }
+        a {
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
