@@ -6,7 +6,11 @@
       <p class="schedule-para">{{ item.description }}</p> -->
       <!-- <p class="dates">Location</p> -->
       <p class="location">{{ item.location }}</p>
-      <a class="btn btn_light" href="#">See Map</a>
+      {% if item.map == nil %}
+      <p class="btn btn_light">TBA</p>
+      {% else %}
+      <a class="btn btn_light" href="{{ item.map }}">See Map</a>
+      {% endif %}
     </div>
   {% endfor %}
 </div>
