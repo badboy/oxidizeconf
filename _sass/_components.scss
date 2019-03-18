@@ -243,9 +243,7 @@ a.session {
   p, li {
     font-size: 1.1rem;
   }
-  .btn {
-    margin-bottom: 2rem;
-  }
+  
   hr {
     background: #eee;
     padding: 1px 0;
@@ -289,7 +287,8 @@ tr {
   }
 }
 .btn {
-  &, &_round {
+  margin-bottom: 2rem;
+  &, &_round, &_regular {
     background-color: #423CC6;
     border: 2px solid #423CC6;
     border-radius: 10px;
@@ -302,12 +301,17 @@ tr {
     padding-right: 50px;
     padding-left: 50px;
     display: inline-block;
-    margin-bottom: 4rem;
     &:hover {
       background-color: #F4F4F4;
       color: #423CC6;
       transition: 0.3s;
     }
+  }
+  &, &_round {
+    margin-bottom: 4rem;
+  }
+  &_regular {
+    margin: 1rem 0;
   }
   &_round {
     border-radius: 1rem;
