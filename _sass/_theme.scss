@@ -262,14 +262,15 @@ form #submit:hover {
 }
 #logo-for-footer {
     width: 150px;
-    margin-bottom: 23px;
+    margin-bottom: 0.75rem;
 }
 footer h2, .inline-connect-div a {
     font-weight: bold;
+    text-transform: uppercase;
     line-height: 20px;
     font-size: 18px;
     color: #FFFFFF;
-    margin-bottom: 35px;
+    margin-bottom: 1rem;
 }
 .inline-connect-div a {
     font-weight: normal;
