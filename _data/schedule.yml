@@ -5,35 +5,35 @@
       time: 0830
     - title: Welcome Keynote and Sponsors
       time: 0900
-    - title: War Stories
+    - title: War stories from teaching Rust and Embedded simultaneously
       time: 0945
-      url: /sessions/project-highlight/
+      url: /sessions/war-stories/
       speakers:
         - name: Oliver Scherer
           avatar: speaker.jpg
-    - title: RIOT-OS
+    - title: "Iron parts on deep roots: Using the RIOT operating system"
       time: 1025
-      url: /sessions/project-highlight/
+      url: /sessions/riot-os/
       speakers:
         - name: Christian Amsüss
           avatar: speaker.jpg
     - title: Coffee Break
       time: 1040
-    - title: TrustZone
+    - title: Adding Security to Rust Safety with TrustZone for Armv8-M
       time: 1100
-      url: /sessions/project-highlight/
+      url: /sessions/trust-zone/
       speakers:
         - name: Hugues de Valon
           avatar: speaker.jpg
-    - title: RISC-V
+    - title: "RISC-V and Rust: Embedded Systems Done Right"
       time: 1140
-      url: /sessions/project-highlight/
+      url: /sessions/risc-v/
       speakers:
         - name: Arun Thomas
           avatar: speaker.jpg
-    - title: Test Generator
+    - title: Test generator and managing resource dependencies
       time: 1220
-      url: /sessions/project-highlight/
+      url: /sessions/test-generator/
       speakers:
         - name: Frank Rehberger
           avatar: speaker.jpg
@@ -47,13 +47,13 @@
           avatar: speaker.jpg
     - title: Embedded Rust Anywhere
       time: 1440
-      url: /sessions/project-highlight/
+      url: /sessions/embedded-rust/
       speakers:
         - name: Joseph Ross
           avatar: speaker.jpg
-    - title: How to Rust
+    - title: How to Rust when Standards Are Defined in C
       time: 1520
-      url: /sessions/project-highlight/
+      url: /sessions/how-to-rust/
       speakers:
         - name: Eddy Petrisor
           avatar: speaker.jpg
@@ -65,9 +65,9 @@
       speakers:
         - name: TBA
           avatar: speaker.jpg
-    - title: Industrial Grade
+    - title: Industrial-grade IoT application on the road with Rust on Pi
       time: 1640
-      url: /sessions/project-highlight/
+      url: /sessions/Industrial-grade/
       speakers:
         - name: Tristan Lostroh
           avatar: speaker.jpg
