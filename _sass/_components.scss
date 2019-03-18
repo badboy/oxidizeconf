@@ -175,14 +175,39 @@ a.session {
 
 .footer {
   background-color: #B26DE7;
+  h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 1.05rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+  }
   &_inner {
     padding-top: 4rem;
     padding-bottom: 4rem;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 3fr 2fr 2fr;
     grid-gap: 2rem 1rem;
     @media screen and (max-width: 768px) {
       grid-template-columns: 1fr;
+    }
+  }
+  &_meta {
+    margin-top: 1rem;
+    div {
+        display: grid;
+        grid-template-columns: 1fr 9fr;
+        grid-gap: 0.25rem;
+        align-items: center;
+    }
+    a {
+        display: block;
+        padding: 0.33rem 0;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
     }
   }
 }

@@ -86,7 +86,7 @@ h1 span {
 header h2 {
     font-weight: 500;
     line-height: 31px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-top: 50px;
     margin-right: 20px;
     color: #FFFFFF;
@@ -255,7 +255,7 @@ footer h2, .inline-connect-div a {
     font-weight: bold;
     text-transform: uppercase;
     line-height: 20px;
-    font-size: 18px;
+    // font-size: 18px;
     color: #FFFFFF;
     margin-bottom: 1rem;
 }
@@ -263,24 +263,6 @@ footer h2, .inline-connect-div a {
     display: none;
 }
 
-.footer {
-    &_meta {
-        margin-top: 1rem;
-        div {
-            padding: 0.33rem 0;
-            display: grid;
-            grid-template-columns: 1fr 9fr;
-            grid-gap: 0.25rem;
-            align-items: center;
-        }
-        a {
-            text-decoration: none;
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-    }
-}
 .bar1-change {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
