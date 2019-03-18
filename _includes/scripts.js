@@ -108,7 +108,7 @@ gearIcon.addEventListener("click", gearClickOpen);
 window.addEventListener("resize", gearChange);
 function gearChange() {
     width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    gearIcon.style.left = width - 100 + "px";
+    // gearIcon.style.left = width - 100 + "px";
 }
 
 function changeBars(bars = []) {

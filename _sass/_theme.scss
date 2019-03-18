@@ -173,10 +173,7 @@ header p {
     font-size: 36px;
     color: #423CC6;
 }
-.logistics-div-other-h2 {
-    color: #FFFFFF;
-    margin-top: 1.5rem;
-}
+
 .dates, .location {
     font-weight: bold;
     line-height: 20px;
@@ -193,19 +190,9 @@ header p {
     margin-top: 37px;
     /*margin-right: 5%;*/
 }
-.logistics-para {
-    color: #FFFFFF;
-    margin-top: 16px;
-}
+
 .newsletter-para {
     margin-top: 28px;
-}
-.boxes {
-    // width: 95%;
-    height: 170px;
-    background-color: rgba(0, 0, 0, 0.2);
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
 
 #logistics-div {
@@ -275,15 +262,7 @@ footer h2, .inline-connect-div a {
 .res-br {
     display: none;
 }
-.footer-inline {
-    position: absolute;
-    margin-top: -180px;
-    right: 360px;
-    display: inline-block;
-}
-.footer-inline.connect2 {
-    right: 160px;
-}
+
 .footer {
     &_meta {
         margin-top: 1rem;
