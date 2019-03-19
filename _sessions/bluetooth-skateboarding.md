@@ -5,7 +5,7 @@ speakers:
   - name: Ferdia McKeogh
     avatar: speaker.jpg
     bio: Bob Cottrell and Joe Ross are helping build the next-generation kitchen starting with the June Oven. With a software ecosystem which includes kitchen appliances, mobile applications, and a real-time messaging back end, Bob and Joe are leading their team's adoption of embedded Rust to build new appliances on constrained (and less expensive) computing hardware.
-time: 2:40 PM
+time: 4:10 PM
 day: Saturday, 27th April
 event-type: Talks
 ---
