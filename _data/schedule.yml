@@ -79,7 +79,7 @@
           avatar: speaker.jpg
     - title: Project Highlight TBA
       time: 1750
-      url: /sessions/project-highlight/
+      url: #
       speakers:
         - name: TBA
           avatar: speaker.jpg
