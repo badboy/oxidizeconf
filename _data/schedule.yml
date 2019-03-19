@@ -41,9 +41,9 @@
       time: 1235
     - title: TBA
       time: 1400
-      url: /sessions/project-highlight/
+      url: 
       speakers:
-        - name: 
+        - name:  TBA
           avatar: speaker.jpg
     - title: Embedded Rust Anywhere
       time: 1440
@@ -61,7 +61,7 @@
       time: 1550
     - title: Bluetooth Skateboarding
       time: 1610
-      url: /sessions/project-highlight/
+      url: 
       speakers:
         - name: Ferdia McKeogh
           avatar: speaker.jpg
@@ -86,17 +86,6 @@
     - title: Closing Notes
       time: 1830
 
-- day: Sunday, 28th April
+- day: Sunday and Monday, 28-29th April
   theme: aka "Working hard all day in the shop"
   sessions: 
-    - title: Auditorium opens
-      time: 0915
-    - title: Breakfast
-      time: 0930
-    - title: Effective Rust Documentation
-      room: BW Plus Hotel Universo, Sale Anna
-      time: 0930
-      url: /sessions/project-highlight/
-      speakers: 
-        - name: Andre 'llogiq' Bogus
-          avatar: speaker.jpg # andre-bogus.jpg
