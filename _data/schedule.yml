@@ -63,7 +63,7 @@
       time: 1610
       url: /sessions/project-highlight/
       speakers:
-        - name: TBA
+        - name: Ferdia McKeogh
           avatar: speaker.jpg
     - title: Industrial-grade IoT application on the road with Rust on Pi
       time: 1640
