@@ -118,6 +118,7 @@ a.session {
     display: flex;
     // justify-content: space-between;
     align-items: center;
+    font-weight: bold;
     &s {
       width: 18rem;
     }
@@ -410,7 +411,7 @@ tr {
     bottom: 0;
     background: $light;
     z-index: 999999;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.89s ease-in-out;
   }
 }
 .onload {

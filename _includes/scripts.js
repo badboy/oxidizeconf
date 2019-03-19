@@ -148,7 +148,15 @@ function gearClickClose() {
         setTimeout(function() {
             deleteClass(body, preload);
             deleteClass(body, loaded);
-        }, 360);
+        }, 900);
+    }
+    function activateUnload() {
+        pushClass(body, loaded);
+        setTimeout(function() {
+            deleteClass(body, preload);
+            deleteClass(body, loaded);
+        }, 900);
     }
     window.onload = activateOnLoad;
+    window.onunload = activateUnload;
 })()
