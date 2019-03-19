@@ -137,3 +137,18 @@ function gearClickClose() {
 
     gearIcon.addEventListener("click", gearClickOpen);
 }
+
+(function loadingAnimation() {
+    let preload = 'preload';
+    let loaded = 'onload';
+    let body = elem('body');
+    pushClass(body, preload)
+    function activateOnLoad() {
+        pushClass(body, loaded);
+        setTimeout(function() {
+            deleteClass(body, preload);
+            deleteClass(body, loaded);
+        }, 360);
+    }
+    window.onload = activateOnLoad;
+})()

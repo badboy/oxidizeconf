@@ -391,3 +391,23 @@ tr {
     margin: 0.5rem 0;
   }
 }
+
+.preload, .onload {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $light;
+    z-index: 999999;
+    transition: opacity 0.3s ease-in-out;
+  }
+}
+.onload {
+  &::after {
+    opacity: 0;
+  }
+}
