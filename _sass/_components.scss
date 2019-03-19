@@ -95,8 +95,9 @@ a.session {
     margin-bottom: 3rem;
   }
   &_hour {
-    font-size: 2.25rem;
+    font-size: 2rem;
     letter-spacing: 1.5px;
+    font-weight: bold;
   }
   &_minutes {
     font-size: 1.25rem;
@@ -111,6 +112,7 @@ a.session {
     display: flex;
     // justify-content: space-between;
     align-items: center;
+    font-weight: bold;
     &s {
       width: 18rem;
     }
