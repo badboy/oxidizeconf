@@ -1,9 +1,9 @@
 - day: Saturday, 27th April
   theme: aka "Talks, Talks, Talks"
   sessions: 
-    - title: Registration opens
+    - title: Registration opens 🎫
       time: 0830
-    - title: Welcome Keynote and Sponsors
+    - title: Welcome Keynote and Sponsors 👥
       time: 0900
     - title: War stories from teaching Rust and Embedded simultaneously
       time: 0945
@@ -17,7 +17,7 @@
       speakers:
         - name: Christian Amsüss
           avatar: speaker.jpg
-    - title: Coffee Break
+    - title: Coffee Break ☕️
       time: 1040
     - title: Adding Security to Rust Safety with TrustZone for Armv8-M
       time: 1100
@@ -37,7 +37,7 @@
       speakers:
         - name: Frank Rehberger
           avatar: speaker.jpg
-    - title: Lunch
+    - title: Lunch 🍴
       time: 1235
     - title: TBA
       time: 1400
@@ -57,11 +57,11 @@
       speakers:
         - name: Eddy Petrisor
           avatar: speaker.jpg
-    - title: Coffee Break
+    - title: Coffee Break ☕️
       time: 1550
-    - title: Bluetooth Skateboarding
+    - title: "Bluetooth and Skateboarding: Safety-critical Embedded Rust"
       time: 1610
-      url: 
+      url: /sessions/bluetooth-skateboarding/
       speakers:
         - name: Ferdia McKeogh
           avatar: speaker.jpg
@@ -83,7 +83,7 @@
       speakers:
         - name: TBA
           avatar: speaker.jpg
-    - title: Closing Notes
+    - title: Closing Notes 📋
       time: 1830
 
 - day: Sunday and Monday, 28-29th April
