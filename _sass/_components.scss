@@ -312,7 +312,7 @@ tr {
   }
   &_regular {
     margin: 1rem 0;
-    text-transform: uppercase;
+    text-transform: capitalize;
     // font-weight: 400;
   }
   &_round {
