@@ -312,6 +312,8 @@ tr {
   }
   &_regular {
     margin: 1rem 0;
+    text-transform: uppercase;
+    // font-weight: 400;
   }
   &_round {
     border-radius: 1rem;
