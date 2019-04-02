@@ -1,3 +1,17 @@
+- day: Friday, 26th April
+  theme: Workshops
+  sessions:
+    - title: Registration opens 🎫
+      time: 0830
+    - title: Workshops Session 1 Starts
+      time: 0900
+    - title: Lunch 🍴
+      time: 1230
+    - title: Workshops Session 2 Starts
+      time: 1400
+    - title: Workshops End 📋
+      time: 1800
+
 - day: Saturday, 27th April
   theme: aka "Talks, Talks, Talks"
   sessions:
