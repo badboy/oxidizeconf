@@ -1,14 +1,10 @@
-- item: Schedule
-  link: /schedule/
 - item: Sponsors
   link: /sponsors/packages/
-- item: Travel
-  link: /travel/
 - item: Accessibilty
   link: /accessibility/
 # - item: Code of Conduct
 #   link: /code-of-conduct/
 - item: Get Tickets
-  link: https://ti.to/asquera-event-ug/oxidize-2019
+  link: https://ti.to/asquera-event-ug/oxidize-2020
   class: tic
   id: ticket
