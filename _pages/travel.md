@@ -47,7 +47,7 @@ title: Travel Logistics
 
 We provide child care for our conference attendees and no additional fees. We cater to any needs, but need to know a bit about your child!
 
-If you would like to bring your children, please answer the relevant question in the ticket process and mail <a href="mailto:oxidize@ferrous-systems.com?subject=Child%20care%20at%20Oxidize">contact us</a> before June 1st, 2019 so we can plan for child care. Requests after that time cannot be guaranteed, but still get in touch. <br /> Please include:
+If you would like to bring your children, please answer the relevant question in the ticket process and mail <a href="mailto:oxidize@ferrous-systems.com?subject=Child%20care%20at%20Oxidize">contact us</a> before June 1st, 2020 so we can plan for child care. Requests after that time cannot be guaranteed, but still get in touch. <br /> Please include:
 
 - Their age
 - Their spoken languages
