@@ -5,7 +5,7 @@
   tickets: <tito-widget event="asquera-event-ug/oxidize-2020" releases="embedded-application-development-workshop-full-day,embedded-driver-development-workshop-full-day,general-rust-workshop-full-day"></tito-widget>
   map:
   link: ""
-  linked:
+  linked: "/schedule"
 
 - title: Talks
   date: 18 July
@@ -16,21 +16,11 @@
   link: ""
   linked: "/schedule"
 
-- title: Implementation Days (July 19)
-  date: 19 July
+- title: Implementation Days
+  date: 19-20 July
   description: Impl. Days are a two day event for Embedded Rust contributors to collaborate in an active programming session. They are open to any attendees with a valid Conference or Workshop ticket.
   location: TBA
   ticket: null
   map:
   link: ""
   linked:
-
-- title: Implementation Days (July 20)
-  date: 20 July
-  description: Impl. Days are a two day event for Embedded Rust contributors to collaborate in an active programming session. They are open to any attendees with a valid Conference or Workshop ticket.
-  location: TBA
-  ticket: null
-  map:
-  link: ""
-  linked:
-
