@@ -10,9 +10,9 @@
 - title: Talks
   date: 18 July
   description: The Oxidize Conference is the main event, showcasing the use of Rust in the Embedded Systems domain, with a focus on real world and production use-cases.
-  location: Forum Factory Berlin<br>Besselstraße 13<br>10969 Berlin, Germany
+  location: FORUM Factory Berlin<br>Besselstraße 13<br>10969 Berlin, Germany
   tickets: <tito-widget event="asquera-event-ug/oxidize-2020" releases="individual-ticket,business-ticket,supporter-ticket,rebated-tickets,diversity-donation"></tito-widget>
-  map: https://maps.google.com/maps?q=Besselstr.%2013&t=&z=13&ie=UTF8&iwloc=&output=embed
+  map: https://goo.gl/maps/TGSRkxyYxLTshLQ36
   link: ""
   linked: "/schedule"
 
@@ -21,7 +21,7 @@
   description: Impl. Days are a two day event for Embedded Rust contributors to collaborate in an active programming session. They are open to any attendees with a valid Conference or Workshop ticket.
   location: TBA
   ticket: null
-  map: 
+  map:
   link: ""
   linked:
 
