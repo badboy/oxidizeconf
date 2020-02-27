@@ -42,15 +42,15 @@ The sponsorship includes special shout-outs as the enabler of the impl days duri
 Help us make Oxidize more inclusive!
 
 Live transcription can make the conference more accessible, not just for the people with hearing-related disabilities, but for every attendee making the talks more easily understandable even for non-native speakers of English.
-    
+
 The sponsor will receive a special shout-out for helping us providing live transcription, as well as able to provide one roll-up banner to be exhibited near the live transcription projection screen(s).
 
 <br>
 
 ---
-    
+
 ### Coffee Sponsor — 2&nbsp;000€
-    
+
 Help us keep Oxidize's attendees well-caffeinated and alert at all times!
 
 For a conference that happens over a weekend, it's always important to make sure the attendees are up for whatever we can throw at them - even after a demanding week at work. This sponsorship allows us to provide them with coffee and tea throughout the whole weekend.
@@ -60,11 +60,11 @@ The sponsorship allows the sponsor to provide one roll-up banner that will be pr
 Oxidize reserves the right to refusing to include graphics on the coffee cups that go against the Oxidize Code of Conduct, the values of the conference or the Rust community. In case a suitable graphics cannot be agreed upon, Oxidize refunds the sponsorship amount and the sponsorship agreement is deemed canceled.
 
 <br>
-  
+
 ---
 
 ### Afterparty (a.k.a. Karaoke) Sponsor — 2&nbsp;000€
-    
+
 Support the closing social event after the conference's talk day!
 
 This sponsorship level includes a mention in the schedule and the day-closing remarks for the Afterparty sponsor.
@@ -77,6 +77,6 @@ Please note: the afterparty sponsorship does not give the sponsor any rights for
 
 ## Interested in Sponsoring?
 <br />
-<a href="mailto:oxidizeconf@ferrous-systems.com" class = 'btn_round'>
-    Email: oxidizeconf@ferrous-systems.com
+<a href="mailto:oxidize@ferrous-systems.com" class = 'btn_round'>
+    Email: oxidize@ferrous-systems.com
 </a>
