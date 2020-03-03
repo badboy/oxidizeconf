@@ -6,26 +6,35 @@ layout: default
 <header>
     {% include nav.html %}
     <div class = 'margin-div'>
-        <h1 class = 'h1'>JULY 2020<br><span>Berlin, Germany</span></h1>
+        <h1 class = 'h1'>JULY 17-20, 2020<br><span>Berlin, Germany</span></h1>
         <h2>Embedded Systems and IoT in Rust.</h2>
         <p>One day of guided workshops for developers looking to start or improve their Embedded Rust skills, one day of talks by community members, and a two day development session focused on Hardware and Embedded subjects in Rust.</p>
         <div id="buttons-div">
-            <a class="buttons one" href="https://ti.to/asquera-event-ug/oxidize-2020">Early Supporter Tickets</a>
-            <!-- <a class="buttons one" href="#venues">Check out the venues</a> -->
+            <a class="buttons one" href="https://ti.to/asquera-event-ug/oxidize-2020">Buy Tickets</a>
+            <a class="buttons one" href="https://cfp.oxidizeconf.com/events/oxidize-2020">Submit a Talk Proposal</a>
         </div><br><br><br><br><br>
     </div>
 </header>
-<div class = 'margin-div pb-4 pt-4'>  
+<div id="Schedule"></div>
+<div id="schedule-div">
+    <div class="margin-div">
+        <h2 id="schedule-div-h2-head">Tickets</h2>
+        <svg width="171" height="2" viewBox="0 0 171 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="1" x2="171" y2="1" stroke="#E4E4E4" stroke-width="2"/>
+        </svg>
+        {%- include tickets.html -%}
+   </div>
+    <br><br><br><br>
+</div>
+<div class = 'margin-div pb-4 pt-4'>
     <h2 id="schedule-div-h2-head">Presented by</h2>
     <div class="partners">
       <a href="https://ferrous-systems.com">
         <img class = "presenter_logo" src="/images/ferrous_systems.svg" alt="Ferrous Systems" rel = 'noopener' target = '_blank'>
       </a>
     </div>
-<!--
     <h2 id="schedule-div-h2-head">Sponsors and Partners</h2>
     {% include sponsors.html %}
--->
 </div>
 <div class = 'xs'>{% include icons/svg_snake.html %}</div>
 <div id="Logistics"></div>

@@ -1,0 +1,30 @@
+- day: Friday, July 17th
+  theme: 'aka "Workshop day" <a href="/#venues">Location TBA</a>'
+  sessions:
+    - title: Registration opens
+      time: 0900
+    - title: Workshops begin
+      time: 0930
+    - title: Workshops end
+      time: 1800
+- day: Saturday, July 18th
+  theme: 'aka "Talks, Talks, Talks" <a href="/#venues">at FORUM Factory Berlin</a>'
+  sessions:
+    - title: Registration opens 🎫
+      time: 0830
+    - title: Welcome Keynote and Sponsors 👥
+      time: 0900
+    - title: Closing Notes 📋
+      time: 1830
+
+- day: Sunday and Monday, 19-20th July
+  theme: 'aka "Working hard all day in the shop" <a href="/#venues">Locations TBA</a>'
+  sessions:
+    - title: Introduction
+      time: 0900
+    - title: Project highlights
+      time: 0915
+    - title: Hacking!
+      time: 1000
+    - title: Wrap up for the day
+      time: 1700

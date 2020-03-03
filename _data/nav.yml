@@ -1,5 +1,9 @@
+- item: Schedule
+  link: /schedule/
 - item: Sponsors
   link: /sponsors/packages/
+- item: Travel
+  link: /travel/
 - item: Accessibilty
   link: /accessibility/
 # - item: Code of Conduct

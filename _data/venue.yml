@@ -1,25 +1,25 @@
 - title: Workshops
-  date: TBA
-  description: "The OxidizeConf Workshops are a one day, two track set of workshops led by Ferrous Systems. Tickets for the OxidizeConf Workshops are sold separately from Conference tickets. The tracks will be divided as Beginner and Advanced Embedded Rustlang development. Participants will be provided all embedded hardware necessary for the course."
+  date: 17 July
+  description: "The OxidizeConf Workshops are a one day, multi track set of workshops led by Ferrous Systems. Tickets for the OxidizeConf Workshops are sold separately from Conference tickets. Participants will be provided all embedded hardware necessary for the course."
   location: TBA
-  tickets: null
-  map:
-  link: ""
-  linked:
-
-- title: Talks
-  date: TBA
-  description: The Oxidize Conference is the main event, showcasing the use of Rust in the Embedded Systems domain, with a focus on real world and production use-cases.
-  location: TBA
-  tickets: null
+  tickets: <tito-widget event="asquera-event-ug/oxidize-2020" releases="embedded-application-development-workshop-full-day,embedded-driver-development-workshop-full-day,general-rust-workshop-full-day"></tito-widget>
   map:
   link: ""
   linked: "/schedule"
 
+- title: Talks
+  date: 18 July
+  description: The Oxidize Conference is the main event, showcasing the use of Rust in the Embedded Systems domain, with a focus on real world and production use-cases.
+  location: FORUM Factory Berlin<br>Besselstraße 13<br>10969 Berlin, Germany
+  tickets: <tito-widget event="asquera-event-ug/oxidize-2020" releases="individual-ticket,business-ticket,supporter-ticket,rebated-tickets,diversity-donation"></tito-widget>
+  map: https://goo.gl/maps/TGSRkxyYxLTshLQ36
+  link: ""
+  linked: "/schedule"
+
 - title: Implementation Days
-  date: TBA
+  date: 19-20 July
   description: Impl. Days are a two day event for Embedded Rust contributors to collaborate in an active programming session. They are open to any attendees with a valid Conference or Workshop ticket.
-  location:
+  location: TBA
   ticket: null
   map:
   link: ""
