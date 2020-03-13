@@ -12,7 +12,7 @@
 		{% endif %}
 	</head>
 	<body>
-		{%- unless page.layout == 'home' -%}
+		{%- unless page.layout == 'home' or page.layout == 'oxidize-1k' -%}
 		<header>
 			{% include nav.html %}
 			<div class = 'session_headline'>
