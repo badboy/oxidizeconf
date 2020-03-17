@@ -51,6 +51,19 @@ blockquote {
 }
 table {
   min-width: 100%;
+  /* AJM - Oxidize 1K Hacks */
+  font-size: 1.3rem;
+  tr {
+    line-height: 2.0;
+  }
+  td {
+    line-height: 2.0;
+    padding: 5px;
+  }
+  th {
+    line-height: 2.0;
+    padding: 5px;
+  }
 }
 thead {
   background: $brand-color;
