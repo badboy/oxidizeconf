@@ -7,10 +7,18 @@ permalink: /oxidize-1k-chat/
 
 Besides the video feed on Zoom, we will have an ongoing chat community on our own matrix server.
 
-The best way to get into our community is by clicking the following links for our official rooms:
+You can join these rooms by clicking on the links, or by copying the Matrix Address and joining the rooms directly through your Matrix client. You do not need to create an account on our Matrix server, if you already have an account on another server, such as [matrix.org](https://matrix.org).
 
-* [**Welcome**](https://matrix.to/#/#ox1k-welcome:chat.berline.rs)
-* More rooms coming soon! Check back before the event.
+**If you aren't sure what to do, we recommend clicking the "Riot.im Link".**
+
+| **Room** | Riot.im Link | Multi-Client Link | Matrix Address |
+| :--- | :--- | :--- |
+| **Welcome** | [Link][welcome-riot-im] | [Link][welcome-matrix-to] | `#ox1k-welcome:chat.berline.rs` |
+
+[welcome-matrix-to]: https://matrix.to/#/#ox1k-welcome:chat.berline.rs
+[welcome-riot-im]: https://riot.im/app/#/room/#ox1k-welcome:chat.berline.rs
+
+More rooms coming soon! Check back before the event.
 
 Here are some guidelines on how to use our community chat:
 
